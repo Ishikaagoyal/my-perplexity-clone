@@ -44,8 +44,23 @@ Lucide React – Icons
 
 Axios – Data fetching
 ---
+## 📸 Screenshots
 
+### 🏠 Homepage
+![Homepage](https://github.com/user-attachments/assets/2a92b665-2c78-4f54-a72a-9e506edbc52e)
 
+### 🔍 Search Preview
+![Search 1](https://github.com/user-attachments/assets/46277cf8-715a-449a-96e1-d34eb9b8fc86)  
+![Search 2](https://github.com/user-attachments/assets/13ab28bd-6bc5-4e2f-b27c-2e0f8d0e2c0e)
+
+### 📚 Library
+![Library](https://github.com/user-attachments/assets/d4df27d1-0877-4809-adf7-c289a5529e42)
+
+### 🌍 Discover Page
+![Discover 1](https://github.com/user-attachments/assets/0abb3af0-00fb-42e2-8b3f-c1e4b63398f9)  
+![Discover 2](https://github.com/user-attachments/assets/4e7255d9-d251-4e7e-b419-2694a1e3a770)
+
+---
 ## 🧪 Development Setup
 
 ```bash

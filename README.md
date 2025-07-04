@@ -51,6 +51,8 @@ Axios – Data fetching
   <img src="https://github.com/user-attachments/assets/2a92b665-2c78-4f54-a72a-9e506edbc52e" width="600"/>
 </p>
 
+---
+
 ### 🔍 Search Preview
 <p align="center">
   <img src="https://github.com/user-attachments/assets/46277cf8-715a-449a-96e1-d34eb9b8fc86" width="600"/>
@@ -58,10 +60,14 @@ Axios – Data fetching
   <img src="https://github.com/user-attachments/assets/13ab28bd-6bc5-4e2f-b27c-2e0f8d0e2c0e" width="600"/>
 </p>
 
+---
+
 ### 📚 Library
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d4df27d1-0877-4809-adf7-c289a5529e42" width="600"/>
 </p>
+
+---
 
 ### 🌍 Discover Page
 <p align="center">
@@ -69,7 +75,6 @@ Axios – Data fetching
   <br/>
   <img src="https://github.com/user-attachments/assets/4e7255d9-d251-4e7e-b419-2694a1e3a770" width="600"/>
 </p>
-
 
 ---
 ## 🧪 Development Setup

@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧠 Perplexity AI Clone
 
-## Getting Started
+A fully functional and visually modern clone of [Perplexity AI](https://www.perplexity.ai/), built using **Next.js 14**, **Clerk**, **Supabase**, and more. This app mimics the intelligent search and conversational experience of Perplexity AI, with additional features like asynchronous summaries, a Discover news feed, and a user-specific searchable Library.
 
-First, run the development server:
+---
+
+##🚀 Features
+🔍 Brave Search API – Fetches real-time search results for any query.
+
+🤖 Gemini API (Gemini 1.5 Flash) – Summarizes search results using LLM via Inngest for async execution.
+
+🧠 Client-side Caching – Prevents redundant API calls when switching between search categories.
+
+📚 User Library – Stores all past searches by authenticated users using Supabase; enables easy revisiting.
+
+🧭 Discover Page – Dynamic news feed with topic filters, category badges, and news cards.
+
+🔐 Clerk Authentication – Handles secure login and session management.
+
+🌗 Modern UI – Fully responsive with dark/light modes, animated transitions, shimmer loaders, and accessibility-friendly layouts.
+
+🎬 Video & Image Detection – Adds play icon if video content exists; fetches thumbnails and source branding.
+
+🏷️ Badges for Trending/Editor's Pick – Dynamically applied based on index logic.
+
+---
+
+## 🧱 Tech Stack
+Next.js 14 (App Router) – SSR, routing, layout composition
+
+Tailwind CSS – Utility-first design with dark mode
+
+Supabase – Backend-as-a-service (PostgreSQL + Auth)
+
+Brave Search API – Data source for search and news
+
+Gemini API – LLM summaries
+
+Inngest – Async function orchestration
+
+Clerk – Authentication
+
+Lucide React – Icons
+
+Axios – Data fetching
+---
+
+
+## 🧪 Development Setup
 
 ```bash
+# git clone https://github.com/your-username/perplexity-clone
+cd perplexity-clone
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
+#Then open http://localhost:3000 in your browser.
+---
+📁 Environment Variables
+Create a .env.local and add:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+GEMINI_API_KEY=
+BRAVE_API_KEY=
+INNGEST_SIGNING_KEY=
+---
+📦 Deployment
+Deployed via Vercel:
+---
+🪪 License
+Licensed under the MIT License © 2025 Ishikaagoyal
+---

@@ -36,7 +36,7 @@ export default function SearchQueryresult() {
       console.error("Supabase error:", error.message);
     } else {
       setSearchInputrecord(data?.[0] || null);
-      console.log(data?.[0])
+      //console.log(data?.[0])
     }
     
 
@@ -70,3 +70,5 @@ export default function SearchQueryresult() {
     </div>
   );
 }
+
+// © 2025 Ishikaa Goyal. All rights reserved.

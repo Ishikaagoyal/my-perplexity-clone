@@ -17,7 +17,7 @@ let { data: users, error } = await supabase
   .from('users')
   .select('*')
   .eq('email', user?.primaryEmailAddress.emailAddress);
-  console.log(users);
+  //console.log(users);
   if(users.length==0){
     
 const { data, error } = await supabase
@@ -28,7 +28,7 @@ const { data, error } = await supabase
      },
   ])
   .select();
-  console.log(data);
+  //console.log(data);
   setUserdetail(data[0]);
   return;
           

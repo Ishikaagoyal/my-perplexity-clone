@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
         <head>
-          {/* ✅ Sets theme based on localStorage or prefers-color-scheme */}
+          {/*  Sets theme based on localStorage or prefers-color-scheme */}
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
           className={`bg-background text-foreground transition-colors duration-300 ${geistSans.variable} ${geistMono.variable}`}
         >
           <SidebarProvider>
-            <ThemeToggleButton /> {/* ✅ Toggle is now handled properly in a client component */}
+            <ThemeToggleButton /> {/*  Toggle is handled properly in a client component */}
 
             <Appsidebar />
             <SidebarInset>
@@ -67,3 +67,5 @@ export default function RootLayout({ children }) {
     </ClerkProvider>
   );
 }
+// © 2025 Ishikaa Goyal. All rights reserved.
+

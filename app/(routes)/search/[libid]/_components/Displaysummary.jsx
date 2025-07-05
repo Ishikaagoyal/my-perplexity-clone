@@ -5,7 +5,7 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { okaidia } from 'react-syntax-highlighter/dist/cjs/styles/prism'
 
 export default function Displaysummary({ aiResp }) {
-  console.log("Displaysummary received aiResp:", aiResp);
+  //console.log("Displaysummary received aiResp:", aiResp);
 
   return (
     <div className="prose max-w-none dark:prose-invert mt-6">

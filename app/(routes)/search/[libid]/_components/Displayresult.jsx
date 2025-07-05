@@ -53,7 +53,7 @@ export default function Displayresult({ searchInputrecord }) {
     if (existingChat) {
       console.log("⚠️ Same chat already exists. Using existing data.");
       await Generateairesp(existingChat.searchResult, existingChat.id);
-      await GetsearchRecords(); // Fetch fresh list so scroll target is valid
+      await GetsearchRecords(); // Fetches fresh list so scroll target is valid
       setLoadingsearch(false);
 
       setTimeout(() => {
@@ -97,7 +97,7 @@ export default function Displayresult({ searchInputrecord }) {
       .select();
 
     await Generateairesp(formattedsearchresp, data?.[0]?.id);
-    await GetsearchRecords(); // Refetch to include new chat
+    await GetsearchRecords(); // Refetches to include new chat
     setLoadingsearch(false);
 
     setTimeout(() => {
@@ -152,9 +152,9 @@ export default function Displayresult({ searchInputrecord }) {
 
       {Array.isArray(searchresult?.chats) &&
         [...searchresult.chats]
-          .sort((a, b) => a.id - b.id) // ✅ sort oldest to newest
+          .sort((a, b) => a.id - b.id) // sorts oldest to newest
           .map((chat, index, arr) => {
-            const isLast = index === arr.length - 1; // 🟡 identify the last item
+            const isLast = index === arr.length - 1; // identifies the last item
             const sourceCount = chat?.searchResult?.filter(r => r.type === "web")?.length || 0;
             const videoCount = chat?.searchResult?.filter(r => r.type === "video")?.length || 0;
             const imageCount = chat?.searchResult?.filter(r => r.img)?.length || 0;
@@ -169,7 +169,7 @@ export default function Displayresult({ searchInputrecord }) {
             return (
               <div
                 key={chat.id}
-                ref={isLast ? resultRef : null} // ✅ scroll to latest only
+                ref={isLast ? resultRef : null} // scroll to latest only
                 className="mt-10 transition-shadow duration-500 shadow-md rounded-md"
               >
                 <h2 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200">
@@ -229,3 +229,6 @@ export default function Displayresult({ searchInputrecord }) {
     </div>
   );
 }
+
+// © 2025 Ishikaa Goyal. All rights reserved.
+

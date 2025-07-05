@@ -1,4 +1,4 @@
-// inngest/server.ts
+
 import { Inngest } from "inngest";
 
 export const inngest = new Inngest({

@@ -36,7 +36,7 @@ function Discover() {
         searchInput: SelectedOption + ' Latest News & Updates',
         searchType: 'Search'
       });
-      console.log(result.data);
+      //console.log(result.data);
 
       const websearchresult = result?.data?.web?.results;
       cache[SelectedOption] = websearchresult; // Cache it

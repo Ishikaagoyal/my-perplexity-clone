@@ -11,7 +11,7 @@ export async function POST(req) {
       }
     });
 
-    console.log("Inngest run result:", result.data); 
+    //console.log("Inngest run result:", result.data); 
 
     return NextResponse.json(result.data); 
 

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function VideolistTab({ chat }) {
   const videos = chat?.searchResult?.filter(item => item.type === "video");
-  console.log("📺 Videos being rendered:", videos);
+  //console.log(" Videos being rendered:", videos);
 
   if (!videos?.length) return <p className="text-sm text-gray-500 dark:text-gray-400">No videos found.</p>;
 

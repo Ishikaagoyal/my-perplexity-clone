@@ -42,13 +42,13 @@ const Menuoptions = [
 function Appsidebar({ children }) {
   const path = usePathname();
   const { user } = useUser();
-  const pathname = usePathname(); // ✅ get current page for redirectUrl
+  const pathname = usePathname(); // gets current page for redirectUrl
 
   return (
     <Sidebar variant="sidebar" collapsible="offcanvas" side="left" className="bg-accent">
       <SidebarHeader className='bg-accent'>
         <div className="bg-accent flex items-center justify-center pt-3">
-          {/* 🌗 Light/Dark logo toggle */}
+          {/* Light/Dark logo toggle */}
           <Image
             src="/image2.png"
             alt="logo"

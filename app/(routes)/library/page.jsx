@@ -108,7 +108,7 @@ function Library() {
         {Libraryhistory?.map((item, index) => (
           <div
             key={index}
-            onClick={() => handleNavigation(item.libid)} // 👈 now controlled
+            onClick={() => handleNavigation(item.libid)} 
             className='cursor-pointer px-2 py-3 rounded-md flex items-start hover:bg-accent/40 hover:border-l-4 hover:border-primary transition-all group'
           >
             <div className='flex-1'>

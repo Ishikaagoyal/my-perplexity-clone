@@ -65,7 +65,7 @@ export default function Chatinputbox() {
     ]).select();
 
     router.push("/search/" + libid);
-    // Don't set loading false — Next.js handles route transition
+    
   };
 
   return (
